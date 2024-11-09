@@ -4,7 +4,7 @@ echo -e "\nSubdomain Takeover Scan"
 echo "Written by tyto"
 
 if [ -z "$2" ]; then
-    echo "Example: $0 domain.com wordlists/subdomains-100.txt"
+    echo "Example: $0 domain.com wordlist.txt"
 else
 	echo ""
 	for subdomain in $(cat $2); do
